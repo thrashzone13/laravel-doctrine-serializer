@@ -1,0 +1,25 @@
+{
+  "name": "thrashzone13/laravel-doctrine-serializer",
+  "description": "Service provider for doctrine serializer",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Thrashzone13\\LaravelDoctrineSerializer\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "thrashzone13",
+      "email": "reza.rabbani.369@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.3|^8.0",
+    "doctrine/inflector": "^1.4|^2.0",
+    "laravel/framework": "^8.0",
+    "laravel-doctrine/orm": "^1.7",
+    "symfony/serializer-pack": "^1.0"
+  }
+}
